@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CustomerActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout_DriverActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolBar_DriverActivity"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#f00"
+                app:title="Trang chính"></android.support.v7.widget.Toolbar>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Danh sách các đơn hàng"
+                android:textColor="#ff00"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Bạn đã nhận đơn hàng"/>
+                        <ListView
+                            android:background="@drawable/custom_button_account"
+                            android:id="@+id/listviewMain_DriverActivity"
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"></ListView>
+                    </FrameLayout>
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_FindOrder_DriverActivity"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Làm mới đơn hàng" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationMain_DriverActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <ListView
+                android:id="@+id/listView_Menu_DriverActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"></ListView>
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

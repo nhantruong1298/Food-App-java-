@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "932091147994",
+    "firebase_url": "https://database-e551d.firebaseio.com",
+    "project_id": "database-e551d",
+    "storage_bucket": "database-e551d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932091147994:android:bfc03a7313c628bf3b57e3",
+        "android_client_info": {
+          "package_name": "com.example.nhantruong.foodfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932091147994-4rkv13k3n2425q903kjdrkd9t9muhphf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6gZg6kwRgjt1PT-3Xn5ftr63U7IAJqvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932091147994-4rkv13k3n2425q903kjdrkd9t9muhphf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
